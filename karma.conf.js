@@ -23,7 +23,7 @@ module.exports = function(karma) {
       './test/**/[^_]*.js': ['webpack']
     },
 
-    browsers: [ 'Chrome' ],
+    browsers: [ 'Chrome', 'Firefox' ],
 
     logLevel: karma.LOG_INFO,
 
@@ -76,6 +76,7 @@ module.exports = function(karma) {
       require('karma-mocha'),
       require('karma-chai'),
       require('karma-chrome-launcher'),
+      require('karma-firefox-launcher'),
       require('karma-nyan-reporter')
     ]
   });

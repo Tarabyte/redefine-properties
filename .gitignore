@@ -29,3 +29,6 @@ node_modules
 #sublime
 *.sublime-project
 *.sublime-workspace
+
+#README preview
+README.html

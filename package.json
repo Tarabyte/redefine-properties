@@ -1,0 +1,38 @@
+{
+  "name": "redefine-properties",
+  "version": "1.0.0",
+  "description": "Define target properties using multiple sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tarabyte/redefine-properties.git"
+  },
+  "keywords": [
+    "ES5",
+    "defineProperty",
+    "defineProperties",
+    "merge"
+  ],
+  "author": "tarabyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tarabyte/redefine-properties/issues"
+  },
+  "homepage": "https://github.com/Tarabyte/redefine-properties",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.13.10",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-nyan-reporter": "^0.2.2",
+    "karma-webpack": "^1.7.0",
+    "webpack": "^1.12.2"
+  }
+}
